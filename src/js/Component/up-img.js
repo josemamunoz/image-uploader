@@ -1,8 +1,8 @@
 import React, {useState} from "react";
-import './App.css';
 import {ReactComponent as Logo} from './image.svg';
 
-function App() {
+export const Upimg = () => {
+
   const [highlighted, setHighlighted] = useState(false);
   const [contacts, setContacts] = useState([]);
 
@@ -55,6 +55,4 @@ function App() {
 
    
   );
-}
-
-export default App;
+};
